@@ -1,0 +1,56 @@
+.bg-color {
+  background-image: url('./images/CNC.gif');
+  background-size: cover; /* Adjust the size of the background image */
+  background-position: auto; /* Position the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  color: white; /* Set text color to contrast with the background */
+  height: 100vh;
+}
+
+
+.txt {
+    color: white;
+}
+
+.product-head {
+    font-size: 60px;
+    font-weight: 400;
+    color: #C7C8CC;
+}
+
+.PCD-inserts-head {
+    font-size: 48px;
+    font-weight: 400;
+    color: #C7C8CC;
+}
+
+.nav-item.active .nav-link {
+    background-color: #007bff;
+    color: #fff;
+}
+
+h3.txt {
+  font-size: 36px;
+}
+
+.cinzel-txt1 {
+  font-family: "Cinzel", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.cinzel-txt2 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .d-flex {
+    background-color: white;
+  }
+
+  .btn {
+    color: white!important;
+  }
