@@ -30,8 +30,9 @@
 }
 
 h3.txt {
-  font-size: 36px;
+  font-size: 30px;
 }
+
 
 .cinzel-txt1 {
   font-family: "Cinzel", serif;
@@ -53,4 +54,31 @@ h3.txt {
 
   .btn {
     color: white!important;
+  }
+
+  @media (max-width: 600px) {
+
+    .cinzel-txt1 {
+      font-size: 24px;
+    }
+
+    p.txt {
+      font-size: 18px; /* Reduce font size for smaller screens */
+    }
+
+    .logo {
+      max-width: 150px; /* Reduce logo size for smaller screens */
+    }
+
+    h3.txt {
+      font-size: 24px; /* Reduce heading font size for smaller screens */
+    }
+
+    .cinzel-txt2 {
+      font-size: 21px;
+    }
+
+    p.address {
+      font-size: 16px;
+    }
   }
